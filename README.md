@@ -1,6 +1,7 @@
 # Parcial Servicios Telemáticos
 
 **Estudiante:** Isabela Cabezas  Obregon - Isabella Ortiz Hernandez - Samuel Sepulveda Castaño
+
 **Repositorio:** Parcial-Servicios-Telematicos
 
 ---
