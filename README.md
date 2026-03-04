@@ -83,12 +83,6 @@ Se configuró VirtualHost apuntando al directorio:
 /var/www/parcial/apache_gzip
 ```
 
-Archivos web incluidos en:
-
-```
-web/
-```
-
 ---
 
 #  4. Compresión GZIP
