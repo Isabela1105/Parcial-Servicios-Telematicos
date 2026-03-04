@@ -65,14 +65,31 @@ Se configuraron:
 
 ---
 
-# 2. Exposición con NGROK
+## 2. Exposición del Servidor Web con Ngrok
 
-Se utilizó túnel HTTP para exponer el servidor local a Internet.
+Se utilizó la herramienta **ngrok** para exponer el servidor Apache local a Internet mediante un túnel seguro HTTPS.
 
+### Paso 1: Verificar que Apache esté en ejecución
 
-Se verificó acceso externo mediante URL pública HTTPS generada.
+```bash
+sudo systemctl status apache2
+```
 
-Link generado por ngrok: https://nondiabolical-karl-unludicrous.ngrok-free.dev
+### Paso 2: Crear túnel HTTP hacia el puerto 80
+
+```bash
+ngrok http 80
+```
+
+Este comando crea un túnel seguro desde Internet hacia el servidor local que está escuchando en el puerto 80.
+
+### Paso 3: URL pública generada
+
+Ngrok generó la siguiente URL pública:
+
+https://nondiabolical-karl-unludicrous.ngrok-free.dev
+
+Esta URL redirige el tráfico externo al servidor Apache configurado localmente, permitiendo acceso remoto a la página personalizada configurada en el servidor.
 
 
 # 3. Servidor Web Apache
