@@ -105,6 +105,8 @@ Se verificó presencia del header:
 Content-Encoding: gzip
 ```
 
+![Prueba con HTML](HTML.jpeg)
+
 
 # Conclusión Técnica
 
