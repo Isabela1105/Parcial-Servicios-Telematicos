@@ -73,7 +73,7 @@ Se utilizó túnel HTTP para exponer el servidor local a Internet.
 Se verificó acceso externo mediante URL pública HTTPS generada.
 
 Link generado por ngrok: https://nondiabolical-karl-unludicrous.ngrok-free.dev
----
+
 
 # 3. Servidor Web Apache
 
