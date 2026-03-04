@@ -69,10 +69,7 @@ Se configuraron:
 
 Se utilizó túnel HTTP para exponer el servidor local a Internet.
 
-Documentación en:
 
-```
-ngrok/README_NGROK.md
 ```
 
 Se verificó acceso externo mediante URL pública HTTPS generada.
@@ -106,6 +103,9 @@ Content-Encoding: gzip
 ```
 
 ![Prueba con HTML](HTML.jpeg)
+
+Se observa una reducción del 22% en el tamaño del archivo HTML al habilitar compresión GZIP.
+Aunque el archivo es pequeño y la reducción no es muy alta, en aplicaciones con archivos más grandes (JS, CSS) el porcentaje de mejora suele ser considerablemente mayor.
 
 
 # Conclusión Técnica
