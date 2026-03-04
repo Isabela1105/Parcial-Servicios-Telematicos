@@ -70,8 +70,6 @@ Se configuraron:
 Se utilizó túnel HTTP para exponer el servidor local a Internet.
 
 
-```
-
 Se verificó acceso externo mediante URL pública HTTPS generada.
 
 ---
